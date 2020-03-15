@@ -529,4 +529,12 @@
 <!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
+<div class="container">
+  <button mat-raised-button [appPtMenuTrigger]="menuTmpl">Open</button>
+</div>
 
+<app-pt-menu #menuTmpl>
+  <div>
+    something bla bla blo blo
+  </div>
+</app-pt-menu>
